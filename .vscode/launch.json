@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/medosha22/ROS_Diploma/Github/ROS_Diploma/C++/UML",
-      "program": "/home/medosha22/ROS_Diploma/Github/ROS_Diploma/C++/UML/build/Debug/outDebug",
+      "cwd": "/home/otaku/ROS_Diploma/Github/ROS_Diploma/C++/UML",
+      "program": "/home/otaku/ROS_Diploma/Github/ROS_Diploma/C++/UML/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
