@@ -1,55 +1,42 @@
-// Encapsulation is hiding data (fields) from user
 #include <iostream>
-using namespace std;
 
 class Rectangle
 {
-public:
-    // Constructor to initialize height and width
-    Rectangle() : height(0), width(0) {}
+    float height;
+    float width;
 
+public:
+    Rectangle(float h, float w) : height(h), width(w) { std::cout << "=============================" << std::endl; }
     void setHeight(float h)
     {
-        if (h <= 0)
-            cout << "Please enter a positive number\n";
-        else
-            height = h;
-    }
-
-    float getHeight() const
-    {
-        return height;
+        height = h;
     }
 
     void setWidth(float w)
     {
-        if (w <= 0)
-            cout << "Please enter a positive number\n";
-        else
-            width = w;
+        width = w;
+    }
+    float getHeight()
+    {
+        return height;
     }
 
-    float getWidth() const
+    float getWidth()
     {
         return width;
     }
 
-    float getArea() const
+    float getArea()
     {
         return height * width;
     }
-
-private:
-    float height;
-    float width;
 };
 
 int main()
 {
-    Rectangle rec;
-    rec.setHeight(5);
-    rec.setWidth(-5);
-    cout << "Area = " << rec.getArea() << endl;
-
-    return 0;
+    float h, w;
+    std::cout << "Enter the height and width: ";
+    std::cin >> h >> w;
+    Rectangle rect(h,w);
+    std::cout << "Area = " << rect.getArea() << std::endl;
 }
