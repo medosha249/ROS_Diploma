@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/alashkar/Desktop/Github/ROS_Diploma/C++/STL/Sequence/Forward_List",
-      "program": "/home/alashkar/Desktop/Github/ROS_Diploma/C++/STL/Sequence/Forward_List/build/Debug/outDebug",
+      "cwd": "/home/alashkar/Desktop/Github/ROS_Diploma/C++/Projects",
+      "program": "/home/alashkar/Desktop/Github/ROS_Diploma/C++/Projects/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
