@@ -1,6 +1,8 @@
 {
   "version": "0.2.0",
   "configurations": [
+
+
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
@@ -8,17 +10,23 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/medosha/ROS_Diploma/C++",
-      "program": "/home/medosha/ROS_Diploma/C++/build/Debug/outDebug",
+      "cwd": "/home/medosha/Desktop/Github/ROS_Diploma/C++/",
+      "program": "/home/medosha/Desktop/Github/ROS_Diploma/C++/build/Debug/outDebug",
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
           "text": "-enable-pretty-printing",
           "ignoreFailures": true
         }
-      ]
+      ],
+      "preLaunchTask": "build", // Optionally add this if you have a task for building
+      "logging": {
+        "engineLogging": true
+      },
+      "environment": [],
+      "console": "integratedTerminal"
     }
   ]
 }
